@@ -1,3 +1,8 @@
+.home{
+  background: #F0FFF0;
+  margin-bottom: 70px;
+
+}
 .hero {
   display: flex;
   margin-left: 80px;
@@ -28,13 +33,19 @@ span {
   line-height: 36px;
   margin-top: 0;
 }
-button {
+.get-started-btn {
   background: #21b573;
   border-radius: 33px;
   border: none;
   padding: 15px 25px;
   color: white;
   font-size: 17px;
+}
+.languages{
+  display: grid;
+  grid-template-columns: repeat(3 , 1fr);
+  gap: 20px;
+  /* background: #21B573; */
 }
 @media screen and (max-width:576px) {
   .hero{
