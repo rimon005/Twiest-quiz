@@ -4,7 +4,6 @@ import Swal from 'sweetalert2'
 const Question = ({ option, correctAnswer }) => {
     const answer = () => {
         const questionAns = correctAnswer;
-        // console.log(questionAns);
         if (questionAns === option) {
             Swal.fire(
             'Good job!',

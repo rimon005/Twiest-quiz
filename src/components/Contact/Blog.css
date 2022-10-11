@@ -1,4 +1,14 @@
 .blog{
     width: 80%;
-    margin: 0 auto;
+    margin: 70px auto;
+}
+.blog-question span{
+    font-weight: bold;
+    font-size: 24px;
+}
+.blog-question{
+    border: 1px solid rgb(190, 138, 228);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
 }

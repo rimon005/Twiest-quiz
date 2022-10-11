@@ -4,6 +4,7 @@
 .quizes{
     width: 60%;
     margin: 0 auto;
+    color: rgb(142, 19, 230);
 }
 @media screen and (max-width:768px) {
     .quizes{
