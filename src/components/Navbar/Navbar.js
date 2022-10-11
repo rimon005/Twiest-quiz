@@ -15,7 +15,7 @@ const Navbar = () => {
                 <ul id='nav-link' className={open ? "nav-link active" : "nav-link"}>
                     <li><Link to='/'>Home</Link></li>
                     <li><Link to='/about'>About</Link></li>
-                    <li><Link to='/services'>Services</Link></li>
+                    <li><Link to='/services'>Statistics</Link></li>
                     <li><Link to='/skills'>Skills</Link></li>
                     <li><Link to='/contact'>Blog</Link></li>
                 </ul>

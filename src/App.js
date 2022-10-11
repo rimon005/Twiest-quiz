@@ -23,7 +23,9 @@ function App() {
           path: '/about', element: <About></About>
         },
         {
-          path: '/services', element: <Services></Services>
+          path: '/services',
+          loader: ()=> fetch('https://openapi.programming-hero.com/api/quiz'),
+          element: <Services></Services>
         },
         {
           path: '/contact', element: <Contact></Contact>
