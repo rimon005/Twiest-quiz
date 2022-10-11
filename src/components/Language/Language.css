@@ -9,19 +9,22 @@
   margin-bottom: 10px;
   background: rgb(219, 208, 227);
 }
-.language-info {
-  display: flex;
-  justify-content: space-between;
-}
 .language-info h4{
     margin-left: 10px;
 }
 .quiz-btn{
     font-size: 17px;
+    font-weight: 500;
     color: white;
     background-color: rgb(162, 84, 218);
-    font-weight: 500;
-    width: 50%;
+    width: 100%;
+    padding: 10px 35px;
+    height: 45px;
     border: none;
-
+}
+.btn{
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: rgb(162, 84, 218);
 }

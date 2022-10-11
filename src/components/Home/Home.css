@@ -62,5 +62,8 @@ span {
   .hero-area{
     margin-bottom: 30px;
   }
+  .languages{
+    grid-template-columns: 1fr;
+  }
   
 }
