@@ -9,7 +9,7 @@ const Quizes = () => {
     const {name , id, questions, total} = quizes.data;
     return (
         <div className='quizes'>
-            <h2>{name}</h2>
+            <h2>Quiz of  {name}</h2>
             {
                 questions.map(quizes => <Quiz quizes={quizes} key={quizes.id}></Quiz>)
             }

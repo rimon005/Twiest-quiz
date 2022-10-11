@@ -1,15 +1,23 @@
 import React from 'react';
 import './Question.css'
+import Swal from 'sweetalert2'
 const Question = ({ option, correctAnswer }) => {
     const answer = () => {
         const questionAns = correctAnswer;
         // console.log(questionAns);
         if (questionAns === option) {
-            alert('Your and is true')
-            // alert(questionAns)
+            Swal.fire(
+            'Good job!',
+            'Your answer is right!',
+            'success'
+          )
         }
         else {
-            alert('answer is wrong')
+            Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'Your answer is wrong!',
+              })
         }
     }
     // console.log(option);

@@ -1,3 +1,7 @@
 .questions{
     margin-bottom: 20px;
+    border: 1px solid rgb(203, 152, 240);
+    padding: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
 }

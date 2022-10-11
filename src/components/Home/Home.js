@@ -13,7 +13,7 @@ const Home = () => {
                     <div className='hero-area'>
                         <p className='title'>Are you ready to Learn?</p>
                         <h3 className='main-title'>Learn With fun on <span>any schedule</span></h3>
-                        <p className='details'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae exercitationem reprehenderit deleniti tempora laudantium.</p>
+                        <p className='details'>Following quiz provides Multiple Choice Questions (MCQs) related to C Programming Language. You will have to read all the given answers and click over the correct answer.</p>
                         <button className='get-started-btn'>Get Started</button>
                     </div>
                     <div className='hero-banner'>
