@@ -2,6 +2,16 @@
    display: flex;
    justify-content: center;
    align-items: center;
-   border: 1px solid gray;
-   margin-bottom: 30px;
+   width: 80%;
+   margin: 0 auto;
+}
+.quiz{
+    border: 2px solid lightslategray;
+    padding: 20px;
+    margin: 20px 0;
+    /* display: flex; */
+}
+.option{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
 }

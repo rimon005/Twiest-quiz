@@ -12,14 +12,16 @@ const Quiz = ({ quizes }) => {
         alert(answer);
     }
     return (
-        <div className='questions'>
+        <div className='quiz'>
             <div className='question'>
                 <h4>{question}</h4>
                 <EyeIcon width="75" height="25" onClick={questionAnswer}></EyeIcon>
             </div>
-            {
-                options.map((option , idx) => <Question option={option} key={idx} correctAnswer={correctAnswer}></Question>)
-            }
+            <div className='option'>
+                {
+                    options.map((option, idx) => <Question option={option} key={idx} correctAnswer={correctAnswer}></Question>)
+                }
+            </div>
         </div>
     );
 };
