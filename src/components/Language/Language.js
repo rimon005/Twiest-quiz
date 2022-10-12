@@ -3,15 +3,10 @@ import './Language.css'
 import { ArrowLongRightIcon } from '@heroicons/react/24/solid'
 import { Link } from 'react-router-dom';
 import { createContext } from 'react';
-import { useState } from 'react';
-import Services from '../Services/Services';
 export const dataContext = createContext()
 const Language = ({ language }) => {
-    console.log(language);
-    const [data, setData] = useState(language)
     const { name, logo, id } = language;
     return (
-        <dataContext.Provider value={data}>
             <div className='language'>
                 <img src={logo} alt="" />
                 <div className='language-info'>
@@ -22,7 +17,6 @@ const Language = ({ language }) => {
                     </div>
                 </div>
             </div>
-        </dataContext.Provider>
     );
 };
 
