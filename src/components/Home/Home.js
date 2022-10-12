@@ -3,6 +3,7 @@ import './Home.css'
 import logo from '../Photos/Illustration.png'
 import { useLoaderData } from 'react-router-dom';
 import Language from '../Language/Language';
+import About from '../About/About';
 const Home = () => {
     const data = useLoaderData()
     // console.log(data);
@@ -26,6 +27,7 @@ const Home = () => {
                     data.data.map(language => <Language language={language} key={language.id} ></Language>)
                 }
             </div>
+            <About></About>
         </div>
     );
 };

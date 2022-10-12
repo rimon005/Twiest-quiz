@@ -28,3 +28,8 @@
     color: white;
     background-color: rgb(162, 84, 218);
 }
+@media screen and (max-width:768px) {
+  .language{
+    margin: 0;
+  }
+}

@@ -45,9 +45,15 @@ span {
   display: grid;
   grid-template-columns: repeat(3 , 1fr);
   gap: 20px;
+  margin-bottom: 70px;
+  width: 92%;
+  margin: 0 auto;
   /* background: #21B573; */
 }
-@media screen and (max-width:576px) {
+@media screen and (max-width:768px) {
+  .languages{
+    width: 92%;
+  }
   .hero{
     flex-direction: column;
   }
