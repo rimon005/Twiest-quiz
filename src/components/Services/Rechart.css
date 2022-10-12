@@ -1,4 +1,13 @@
-.rechart{
+.recharts{
     width: 80%;
     margin: 70px auto;
+}
+.rechart{
+    margin: 0 auto;
+}
+@media screen and (max-width:768px) {
+    .recharts{
+        width: 100%;
+        margin: 70px 0;
+    }
 }
